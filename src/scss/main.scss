@@ -1,0 +1,32 @@
+.rev-delete {
+    float: right;
+    background-color: rgb( 200, 25, 25 ) !important;
+    padding: 0px 5px !important;
+    box-shadow: 0 1px 0 rgb(75, 75, 75) !important;
+    border: 1px solid rgb(25, 25, 25) !important;
+    margin-top: 4px !important;
+
+    span {
+        color: rgb(25, 25, 25);
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.review-entry {
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+.inner-meta {
+
+    table {
+        tr {
+            td {
+                &:first-child {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
